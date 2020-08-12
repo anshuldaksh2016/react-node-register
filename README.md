@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+The  Node.js app using Express 
+
 
 ### Prerequisite
 ```
@@ -10,9 +12,12 @@ Nodejs
 ### Installing
 
 ```
-git clone [repo url]
-cd [local repository]
+$ git clone [repo url]
+
+$ cd [local repository]
+
 on Client folder
+
 Check package.json file and ensure scripts are notated as below:
 "scripts": {
     "start": "react-scripts start",
@@ -21,13 +26,18 @@ Check package.json file and ensure scripts are notated as below:
     "eject": "react-scripts eject"
   },
 
+
 /* Delete the node_modules folder and any 'lock' files such as 
 yarn.lock or package-lock.json if present.*/
 
-//Step 5: 
 npm install
 
-//Step 6:
 npm start
 (this will install the dependencies required for the projects)
 ```
+
+Your app should now be running on localhost:3000.
+
+#### Note : For development phase run the server by nodemon server  and client by npm start 
+
+
