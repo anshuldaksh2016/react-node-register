@@ -39,5 +39,6 @@ npm start
 Your app should now be running on localhost:3000.
 
 #### Note : For development phase run the server by nodemon server  and client by npm start 
+            For the mail functionality replace your mail and password with your credentials .
 
 
